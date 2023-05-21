@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    background: linear-gradient(#e66465, #9198e5);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 350px;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 30px auto;
+
+}
+
+.currenttime {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.currenttime * {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.square {
+    width: 33%;
+    padding: 10px 15px;
+}
+
+.digits {
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+.text {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.settime {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.settime * {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.settime-square {
+    width: 33%;
+    padding: 10px 15px;
+}
+
+.options {
+    font-size: 1rem;
+    padding: 0.75em;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.btn {
+    display: flex;
+    width: 100%;
+    margin: 10px 50px;
+}
+
+.btn * {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#set {
+    width: 50%;
+    background: #3368b2;
+    color: #fff;
+    border: 0;
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#reset {
+    width: 50%;
+    background: #aaa;
+    color: #888;
+    border: 0;
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#txtofalarm {
+    display: flex;
+    width: 100%;
+    margin: 10px 50px;
+    justify-content: center;
+}
