@@ -1,3 +1,5 @@
+// Script For Clock
+
 let set = document.getElementById("set");
         let reset = document.getElementById("reset");
         let sethours = document.getElementById("sethours")
